@@ -1,0 +1,80 @@
+.details-content {
+  background-color: #121212;
+  padding: 1rem;
+  color: #f1f5f9;
+}
+
+.des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.des > a {
+  color: #6366f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.skills-con {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skills-con > li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.skills-con > li > img {
+  width: 50px;
+}
+
+.lac {
+  display: flex;
+}
+
+.similar-jobs-con {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.similar-jobs-con > li {
+  width: 250px;
+}
+
+.similar-job-card {
+  display: flex;
+}
+
+.sim-job-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.similar-job-card > .job-link > .card-header > div > h1,
+.similar-job-card > .job-link > h1 {
+  font-size: 1.2rem;
+}
+
+.sim-card-liner {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .similar-jobs-con > li {
+    width: 100%;
+  }
+  .lac {
+    flex-direction: column;
+  }
+}
